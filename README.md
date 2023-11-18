@@ -1,5 +1,9 @@
 # NM-LICET-17
-Title: Food delivery website and application 
+Title: E-commerce Website
+
+Description:
+A user-friendly e-commerce platform providing seamless shopping experiences, featuring secure authentication, a diverse product catalog, and efficient order management.
+
 Team Details:
   1. Cyril Martin S
   2. Kanishkumar K
