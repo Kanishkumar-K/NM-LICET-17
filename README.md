@@ -1,4 +1,4 @@
-# NM-LICET-17
+# NM-LICET-GROUP17
 **Title: E-commerce Website**
 
 **Description:**
