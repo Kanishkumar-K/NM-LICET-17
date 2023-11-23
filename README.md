@@ -6,12 +6,5 @@ A user-friendly e-commerce platform providing seamless shopping experiences, fea
 
 **Team Details:**
 
-|---------------------------------------------------|
-| S. No |      Name              |      NM id       |
-|------:|:----------------------:|:----------------:|
-|   1   |   Cyril Martin S       | au311120104014   |
-|   2   |  Kanishkumar K         | au311120104027   |
-|   3   | Satyavarssheni Ra V    | au311120104053   |
-|   4   |   Alan Judith A        | au311120104301   |
-|---------------------------------------------------|
+
 	
