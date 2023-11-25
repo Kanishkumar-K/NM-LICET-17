@@ -1,4 +1,4 @@
-# MERN Ecommerce Application
+# Ecommerce Application
 
 <code>Currently under construction for additional features</code>
 
@@ -10,14 +10,6 @@ Full-stack ecommerce application built with MERN stack. This project has two fea
 2. Admins control and manage the marketplace items and customer acounts.
 
 # Getting Started
-
-## Dependencies
-
-- Nodejs - The runtime environment of the application
-- Reactjs - Component based UI library
-- MongoDB - NoSQL database
-- Expressjs - Framework to handle routes and requests
-- Mongoose - MongoDB object modeling tool to model the database schema
 
 ## Installation
 
