@@ -80,7 +80,6 @@ const Header = () => {
 
               if (username === 'admin' && password === 'test') {
                 window.alert('Login successful!');
-                window.close();
                 window.opener.location.href = 'https://nm-licet-group17-gpt9gk9ec-kanishs-projects-71b01e55.vercel.app/';
 } else {
                 document.getElementById('errorMessage').innerText = 'Invalid username or password.';
