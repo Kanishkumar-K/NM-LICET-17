@@ -81,7 +81,7 @@ const Header = () => {
               if (username === 'admin' && password === 'test') {
                 window.alert('Login successful!');
                 window.close();
-                const loginWindow = window.open('./Home', '_self');
+                const loginWindow = window.open('/', '_blank');
               } else {
                 document.getElementById('errorMessage').innerText = 'Invalid username or password.';
               }
