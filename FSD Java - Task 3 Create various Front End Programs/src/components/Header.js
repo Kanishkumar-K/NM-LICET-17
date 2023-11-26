@@ -17,7 +17,7 @@ const Header = () => {
     console.log('Login clicked');
 
     // Open a new window with the styled login page content
-    const loginWindow = window.open('https://nm-licet-group17.vercel.app/', '_self');
+    const loginWindow = window.open('https://nm-licet-group17.vercel.app/', '_blank');
     loginWindow.document.write(`
       <html>
         <head>
