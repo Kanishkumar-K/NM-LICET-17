@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Header.css">
+    <title>Header</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <!-- Logo -->
+        <div class="logo">
+            <h2>Mobeaze</h2>
+        </div>
+
+        <!-- Search input -->
+        <div class="search">
+            <input type="text" placeholder="Search..." class="search-input" />
+            <span class="search-icon"></span>
+        </div>
+
+        <!-- User profile icon with dropdown -->
+        <div class="user-profile" onclick="handleProfileClick()">
+            <span class="profile-icon"></span>
+            <div class="user-menu">
+                <button onclick="handleLogin()">Login</button>
+                <button onclick="handleLogout()">Logout</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const handleProfileClick = () => {
+            const userMenu = document.querySelector('.user-menu');
+            userMenu.classList.toggle('show');
+        };
+
+        const handleLogin = () => {
+            // Placeholder logic for login
+            console.log('Login clicked');
+        };
+
+        const handleLogout = () => {
+            // Placeholder logic for logout
+            console.log('Logout clicked');
+        };
+    </script>
+
+</body>
+
+</html>

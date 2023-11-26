@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobeaze E-Shopping Site</title>
+  <link rel="stylesheet" href="./Header.css">
+  <link rel="stylesheet" href="./footer.css">
+  <link rel="stylesheet" href="./ImageDisplay.css">
+  <!-- Include React and ReactDOM scripts -->
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+</head>
+
+<body>
+
+  <!-- Container for rendering React components -->
+  <div id="header-container"></div>
+  <div id="home-container"></div>
+  <div id="footer-container"></div>
+
+  <!-- React component scripts -->
+  <script type="text/babel">
+    // Header component
+    const Header = () => {
+      return (
+        <div className="header">
+          {/* Header component code */}
+        </div>
+      );
+    };
+
+    // Home component
+    const Home = () => {
+      const imageUrl = 'https://cdn.redmondpie.com/wp-content/uploads/2020/10/iphone-12-pro-1200.jpg';
+
+      // ImageDisplay component
+      const ImageDisplay = ({ imageUrl }) => {
+        return (
+          <div className="image-container">
+            <img src={imageUrl} alt="Full Size" className="full-size-image" />
+          </div>
+        );
+      };
+
+      // Render components
+      return (
+        <div className="home">
+          {/* Header */}
+          <header>
+            <div className="header-container">
+              <h1>Welcome to Mobeaze E-Shopping Site</h1>
+              <p>Discover the latest trends and shop your favorite brands.</p>
+            </div>
+          </header>
+
+          {/* ImageDisplay */}
+          <ImageDisplay imageUrl={imageUrl} />
+
+          {/* Featured Products */}
+          {/* ... (rest of Home component) */}
+        </div>
+      );
+    };
+
+    // Footer component
+    const Footer = () => {
+      return (
+        <footer>
+          <section>
+            {/* Footer component code */}
+          </section>
+        </footer>
+      );
+    };
+
+    // Render components into their respective containers
+    ReactDOM.render(<Header />, document.getElementById('header-container'));
+    ReactDOM.render(<Home />, document.getElementById('home-container'));
+    ReactDOM.render(<Footer />, document.getElementById('footer-container'));
+  </script>
+
+</body>
+
+</html>
