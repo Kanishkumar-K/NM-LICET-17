@@ -15,9 +15,9 @@ const Header = () => {
   const handleLogin = () => {
     // Placeholder logic for login
     console.log('Login clicked');
+    const loginWindow = window.open('', '_self');
 
     // Open a new window with the styled login page content
-    const loginWindow = window.open('https://nm-licet-group17.vercel.app/', '_blank');
     loginWindow.document.write(`
       <html>
         <head>
@@ -81,8 +81,8 @@ const Header = () => {
               if (username === 'admin' && password === 'test') {
                 window.alert('Login successful!');
                 window.close();
-                const loginWindow = window.open('/', '_blank');
-              } else {
+                window.opener.location.href = 'https://nm-licet-group17-gpt9gk9ec-kanishs-projects-71b01e55.vercel.app/';
+} else {
                 document.getElementById('errorMessage').innerText = 'Invalid username or password.';
               }
             }
