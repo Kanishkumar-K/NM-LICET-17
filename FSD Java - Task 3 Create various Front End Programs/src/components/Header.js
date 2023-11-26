@@ -17,79 +17,81 @@ const Header = () => {
     console.log('Login clicked');
     const loginWindow = window.open('', '_self');
 
-    // Open a new window with the styled login page content
+  if (loginWindow) {
     loginWindow.document.write(`
-      <html>
-        <head>
-          <title>Login</title>
-          <style>
-            body {
-              font-family: 'Arial', sans-serif;
-              text-align: center;
-              background-color: #f4f4f4;
-              padding: 50px;
-            }
-            h1 {
-              color: #333;
-              margin-bottom: 30px;
-            }
-            form {
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-            }
-            label {
-              margin-bottom: 10px;
-              font-size: 18px;
-            }
-            input {
-              padding: 10px;
-              margin-bottom: 20px;
-              width: 300px;
-              font-size: 16px;
-            }
-            button {
-              padding: 10px 20px;
-              font-size: 16px;
-              background-color: #4CAF50;
-              color: #fff;
-              border: none;
-              cursor: pointer;
-            }
-            .error-message {
-              color: red;
-              margin-top: 10px;
-            }
-          </style>
-        </head>
-        <body>
-          <h1>LOGIN</h1>
-          <form id="loginForm">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" />
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" />
-            <button type="button" onclick="validateLogin()">Login</button><br>
-            <h5>Username: admin, password: test</h5>
-            <div id="errorMessage" class="error-message"></div>
-          </form>
-          <script>
-            function validateLogin() {
-              var username = document.getElementById('username').value;
-              var password = document.getElementById('password').value;
+      <!-- Your login page HTML and styles go here -->
 
-              if (username === 'admin' && password === 'test') {
-                window.alert('Login successful!');
-                window.opener.location.href = 'https://nm-licet-group17-gpt9gk9ec-kanishs-projects-71b01e55.vercel.app/';
-} else {
-                document.getElementById('errorMessage').innerText = 'Invalid username or password.';
-              }
-            }
-          </script>
-        </body>
-      </html>
+      <html>
+      <head>
+        <title>Login</title>
+        <style>
+          body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 50px;
+          }
+          h1 {
+            color: #333;
+            margin-bottom: 30px;
+          }
+          form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          label {
+            margin-bottom: 10px;
+            font-size: 18px;
+          }
+          input {
+            padding: 10px;
+            margin-bottom: 20px;
+            width: 300px;
+            font-size: 16px;
+          }
+          button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+          }
+          .error-message {
+            color: red;
+            margin-top: 10px;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>LOGIN</h1>
+        <form id="loginForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" />
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+          <button type="button" onclick="validateLogin()">Login</button><br>
+          <h5>Username: admin, password: test</h5>
+          <div id="errorMessage" class="error-message"></div>
+        </form>
+
     `);
-  };
+
+    // Validate login and redirect to home on success
+    loginWindow.validateLogin = () => {
+      const username = loginWindow.document.getElementById('username').value;
+      const password = loginWindow.document.getElementById('password').value;
+
+      if (username === 'admin' && password === 'test') {
+        window.alert('Login successful!');
+        loginWindow.location.href = './Home';
+      } else {
+        loginWindow.document.getElementById('errorMessage').innerText = 'Invalid username or password.';
+      }
+    };
+  }
+};
 
   const handleLogout = () => {
     // Placeholder logic for logout
