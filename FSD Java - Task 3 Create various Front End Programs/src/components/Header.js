@@ -96,6 +96,7 @@ const Header = () => {
   const handleLogout = () => {
     // Placeholder logic for logout
     console.log('Logout clicked');
+    window.alert("Logout Successful");
   };
 
   return (
