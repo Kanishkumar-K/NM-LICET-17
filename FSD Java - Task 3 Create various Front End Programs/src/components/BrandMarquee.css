@@ -1,0 +1,50 @@
+/* BrandMarquee.css */
+
+.brand-marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    height: 40px; /* Adjust the height as needed */
+  }
+  
+  .brand-item {
+    margin-right: 30px; /* Adjust the spacing between brand names */
+    font-size: 1.8em; /* Font size */
+    color: #333; /* Text color */
+    animation: marqueeAnimation 30s linear infinite alternate; /* Slow and alternate animation */
+  }
+  
+  @keyframes marqueeAnimation {
+    0% {
+      transform: translateX(100%);
+      text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); /* Text shadow effect */
+    }
+    100% {
+      transform: translateX(-100%);
+      text-shadow: -4px -4px 4px rgba(0, 0, 0, 0.5); /* Reverse text shadow effect */
+    }
+  }
+  
+  .brand-marquee-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #FFD700, #FFA500, #FF6347); /* Adjust colors as needed */
+    z-index: -1;
+    opacity: 0.7; /* Adjust opacity as needed */
+    animation: backgroundAnimation 15s linear infinite alternate; /* Background animation */
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
