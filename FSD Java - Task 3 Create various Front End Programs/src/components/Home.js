@@ -185,7 +185,6 @@ const Home = () => {
                         '<h1>Select Payment Mode</h1>' +
                         '<ul>' +
                         '<li><label><input type="radio" name="paymentMode" value="netBanking"> Net Banking</label></li>' +
-                        '<li><label><input type="radio" name="paymentMode" value="upi"> UPI</label></li>' +
                         '<li><label><input type="radio" name="paymentMode" value="upi"> Mobile Wallet</label></li>' +
                         '<li><label><input type="radio" name="paymentMode" value="upi"> UPI</label></li>' +
                         '<li><label><input type="radio" name="paymentMode" value="upi"> Credit card Transaction</label></li>' +
@@ -394,7 +393,7 @@ const headerStyle = {
             {/* Review 3 */}
             <div style={reviewCardStyle}>
               <h3>Reliable and Trustworthy!</h3>
-              <p>I recently bought an iPhone as a gift for my friend, and it turned out to be the perfect choice!.</p>
+              <p>I recently bought an iPhone as a gift for my girlfriend, and it turned out to be the perfect choice!.</p>
               <p><FaMale /> - Cyril Martin S, India</p>
             </div>
 
