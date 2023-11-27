@@ -8,7 +8,6 @@ import BrandSection from './BrandSection';
 import QAndASection from './QAndASection';
 import BrandMarquee from './BrandMarquee';
 import AboutUs from './AboutUs';
-import { FaMale, FaFemale } from 'react-icons/fa';
 
 
 const Home = () => {
@@ -381,28 +380,28 @@ const headerStyle = {
             <div style={reviewCardStyle}>
               <h3>Great Shopping Experience!</h3>
               <p>I recently had the pleasure of shopping on this e-commerce site, and it exceeded my expectations.</p>
-              <p><FaFemale  /> - Satyavarssheni Ra V, India</p>
+              <p>- Satyavarssheni Ra V, India</p>
             </div>
 
             {/* Review 2 */}
             <div style={reviewCardStyle}>
               <h3>Impressive Product Quality!</h3>
               <p>The products I ordered from this e-commerce site are top-notch! The attention to detail and quality is evident in every item.</p>
-              <p><FaMale /> - Kanishkumar K, India</p>
+              <p>- Kanishkumar K, India</p>
             </div>
 
             {/* Review 3 */}
             <div style={reviewCardStyle}>
               <h3>Reliable and Trustworthy!</h3>
               <p>I recently bought an iPhone as a gift for my friend, and it turned out to be the perfect choice!.</p>
-              <p><FaMale /> - Cyril Martin S, India</p>
+              <p>- Cyril Martin S, India</p>
             </div>
 
             {/* Additional Review */}
             <div style={reviewCardStyle}>
               <h3>Exceptional Service and Fast Shipping!</h3>
               <p>I recently made a purchase on this e-commerce site, and I'm impressed with the exceptional service.</p>
-              <p><FaFemale /> - Alan Judith A, India</p>
+              <p> - Alan Judith A, India</p>
             </div>
           </div>
         </div>
