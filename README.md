@@ -30,17 +30,21 @@ Home Page:
 Placing an order:
 
 <img width="926" alt="image" src="https://github.com/Kanishkumar-K/nm-licet-group17/assets/92669492/89a7401b-4048-4bff-8650-992bbb783993">
-![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/d163e208-24b8-4350-8d07-7aaa5e0f144b)
+
+![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/0e9944f9-45f6-4ac4-b1ac-18db7393ebdf)
 ![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/0e9944f9-45f6-4ac4-b1ac-18db7393ebdf)
 ![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/1398e92a-d57d-422b-95d1-a56253b86acd)
+![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/0e9944f9-45f6-4ac4-b1ac-18db7393ebdf)
+
 
 
 Login:
 
 <img width="956" alt="image" src="https://github.com/Kanishkumar-K/nm-licet-group17/assets/92669492/c8d1d073-101f-4bdc-830f-47d25847bea2">
+
+
 ![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/12d8558b-b6fb-4d00-bec1-74fe0e8a88d9)
 <img width="916" alt="image" src="https://github.com/Kanishkumar-K/nm-licet-group17/assets/92669492/f9fce066-f57c-44ea-a1c0-b05c4fb3d397">
-
 
 
 
