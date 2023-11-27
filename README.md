@@ -1,4 +1,4 @@
-![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/f2c1de20-ce72-4adf-a51b-799e20f6e5f7)# NM-LICET-GROUP17
+# NM-LICET-GROUP17
 **Title: E-commerce Website**
 
 **Description:**
@@ -24,6 +24,7 @@ Home Page:
 ![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/5eff5e4b-2580-4853-a0a9-e3bc07dbedbb)
 ![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/bc0d3c5e-d8a4-4bb0-8faf-0c59e3adf9be)
 ![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/45812c26-d402-4d49-8bfd-3b14ab44b331)
+![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/f2c1de20-ce72-4adf-a51b-799e20f6e5f7)
 
 
 Placing an order:
