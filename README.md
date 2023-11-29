@@ -36,7 +36,6 @@ Placing an order:
 ![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/1398e92a-d57d-422b-95d1-a56253b86acd)
 
 
-
 Login:
 
 <img width="956" alt="image" src="https://github.com/Kanishkumar-K/nm-licet-group17/assets/92669492/c8d1d073-101f-4bdc-830f-47d25847bea2">
@@ -44,10 +43,6 @@ Login:
 
 ![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/12d8558b-b6fb-4d00-bec1-74fe0e8a88d9)
 <img width="916" alt="image" src="https://github.com/Kanishkumar-K/nm-licet-group17/assets/92669492/f9fce066-f57c-44ea-a1c0-b05c4fb3d397">
-
-
-
-
 
 
 
