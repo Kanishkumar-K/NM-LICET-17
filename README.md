@@ -16,6 +16,7 @@ A user-friendly e-commerce platform providing seamless shopping experiences, fea
 |   4   |   Alan Judith A        | au311120104301   |
 
 Live link: https://nm-licet-group17-licet.vercel.app/
+<br />
 
 Home Page: 
 ![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/c060214e-fe47-44d8-9cf1-e31037250e92)
@@ -27,11 +28,15 @@ Home Page:
 ![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/45812c26-d402-4d49-8bfd-3b14ab44b331)
 ![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/f2c1de20-ce72-4adf-a51b-799e20f6e5f7)
 
+<br />
+<br />
 
 Placing an order:
 
 <img width="926" alt="image" src="https://github.com/Kanishkumar-K/nm-licet-group17/assets/92669492/89a7401b-4048-4bff-8650-992bbb783993">
 
+<br />
+<br />
 
 Login:
 <br />
