@@ -47,6 +47,17 @@ Login:
 ![image](https://github.com/Kanishkumar-K/nm-licet-group17/assets/76395721/12d8558b-b6fb-4d00-bec1-74fe0e8a88d9)
 <img width="916" alt="image" src="https://github.com/Kanishkumar-K/nm-licet-group17/assets/92669492/f9fce066-f57c-44ea-a1c0-b05c4fb3d397">
 
+<br />
+<br />
+
+Payment:
+<br />
+
+![payment](https://github.com/Kanishkumar-K/nm-licet-group17/assets/124903018/327e2c5b-7183-456f-87e3-44b15800fcf3)
+![paymode](https://github.com/Kanishkumar-K/nm-licet-group17/assets/124903018/459ad110-954d-4b4d-a02f-4943cbf4153d)
+
+
+
 
 
 
