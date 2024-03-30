@@ -270,7 +270,6 @@ const headerStyle = {
             Discover the latest trends and shop your favorite brands.
           </p>
           <br />
-          <p style={pStyle}>Made by - Alan, Cyril, Kanish, and Satya!</p>
         </div>
         </header>
   
